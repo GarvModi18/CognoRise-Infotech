@@ -1,0 +1,67 @@
+*{
+  margin: 0;  
+  padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg , #36503d, #4e7045 );
+}
+body>div:nth-child(1){
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  height: 80vh;
+}
+span{
+font-size: 50px;
+text-align: center;
+color: yellow;
+font-family: cursive;
+}
+
+.calculator{
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+    /* flex-grow: 1; */
+    /* grid-template-rows: repeat(4, 1fr); */
+    border-radius: 5px;
+    border: 2px solid rgb(36, 7, 7);
+  }
+.calculator>div{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+button{
+  font-size: 20px;
+  font-weight: bolder;
+  width: 70px;
+  height: 40px;
+  border-radius: 5px;
+}
+input{
+  height: 45px;
+  border-radius: 5px;
+  border: 2px solid rgb(36, 7, 7);
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: end;
+}
+#equalBtn{
+  background: transparent;
+  background-color: orange;
+}
+.ControlBtn{
+  color: rgb(194, 194, 7);
+}
