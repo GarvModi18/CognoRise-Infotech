@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgb(93, 23, 104);
+    height: 200vh;
+}
+.title{
+    padding: 20px 25px;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(187, 193, 214);
+}
+.inputBox{
+    width: 330px;
+    padding: 15px 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 55px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(182, 189, 214);
+}
+input{
+    border: none;
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+}
+.listContainer{
+    width: 50vw;
+    /* border: 2px solid rgb(117, 29, 29); */
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+ul , li{
+    font-size: 30px;
+    list-style-type: disc;
+    margin-left: 1.45vw;
+    color: rgb(187, 193, 214);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
