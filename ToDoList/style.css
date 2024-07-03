@@ -10,7 +10,7 @@
 
 body {
     background-image: linear-gradient(45deg, rgb(180, 189, 224), rgb(54, 137, 179), rgb(199, 126, 219), rgb(79, 15, 148));
-    height: 100vh;
+    height: 150vh;
 }
 
 .title {
