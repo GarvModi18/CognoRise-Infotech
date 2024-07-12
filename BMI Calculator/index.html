@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>BMI Calculator</header>
+    <div class="container">
+        <div class="calculator">
+            <div class="box">
+                <input type="number" id="weight" placeholder="Weight" required>
+            </div>
+            <div class="box">
+                <select name="weight-type" id="weight-type" required>
+                <option value="kg">kg</option>
+                <option value="lbs">lbs</option>
+                </select>
+            </div>
+            <div class="box">
+                <select name="height-feet" id="height-feet" required>
+                    <option value="">Feet</option>
+                    <option value="3">3'</option>
+                    <option value="4">4'</option>
+                    <option value="5">5'</option>
+                    <option value="6">6'</option>
+                    <option value="7">7'</option>
+                    <option value="8">8'</option>
+            </select>
+            </div>
+            <div class="box">
+                <select name="height-inch" id="height-inch" required>
+                    <option value="">Inch</option>
+                    <option value="0">0"</option>
+                    <option value="1">1"</option>
+                    <option value="2">2"</option>
+                    <option value="3">3"</option>
+                    <option value="4">4"</option>
+                    <option value="5">5"</option>
+                    <option value="6">6"</option>
+                    <option value="7">7"</option>
+                    <option value="8">8"</option>
+                    <option value="9">9"</option>
+                    <option value="10">10"</option>
+                    <option value="11">11"</option>
+                    <option value="12">12"</option>
+                </select>
+            </div>
+            <button id="calculate">Calculate</button>
+        </div>
+        
+    </div>
+    <div id="resultDiv">
+        <h3 id="result">Result</h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
